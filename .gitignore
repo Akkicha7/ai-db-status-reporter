@@ -1,0 +1,26 @@
+# 🔐 Environment variables (VERY IMPORTANT)
+.env
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 📂 Logs & history (your project creates these)
+logs/
+*.log
+
+# 📦 Virtual environment
+venv/
+.env/
+.venv/
+
+# 🧪 VS Code settings (optional)
+.vscode/
+
+# 🖥 OS files
+.DS_Store
+Thumbs.db
+
+# 📊 Streamlit secrets (if used locally)
+.streamlit/secrets.toml
