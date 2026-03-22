@@ -20,7 +20,8 @@ def get_connection(db_config):
             port=db_config["port"],
             user=db_config["user"],
             password=db_config["password"],
-            dbname=db_config["dbname"]
+            dbname=db_config["dbname"],
+            sslmode="require"
         )
         logger.info(f"Connected to DB: {db_config['name']}")
         return conn
